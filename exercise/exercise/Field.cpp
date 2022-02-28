@@ -34,6 +34,7 @@ void Field::StartBattle(std::shared_ptr<Player> player)
 	player->PrintBingoTable();
 	std::set<int> p;
 	std::set<int> c;
+	std::set<int> playerCall;
 	while (true)
 	{
 		//플레이어-> 컴퓨터 공격
@@ -47,6 +48,7 @@ void Field::StartBattle(std::shared_ptr<Player> player)
 				_computer->ClearBingoNumber(attack);
 				player->ClearBingoNumber(attack);
 				count++;
+				playerCall.insert(attack);
 				break;
 			}
 		}
@@ -81,7 +83,7 @@ void Field::StartBattle(std::shared_ptr<Player> player)
 		{
 			int key = rand() % 25;
 			attack = _computer->GetBingoTableValue(key);
-			if (attack != 0)
+			if (attack != 0 && playerCall.find(attack)==playerCall.end())
 			{
 				cout << ">>>>> " << attack << endl;
 				_computer->ClearBingoNumber(attack);

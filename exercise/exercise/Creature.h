@@ -24,7 +24,6 @@ public:
 	void ClearBingoNumber(int attack);
 	void PrintBingoTable();
 
-
 protected:
 
 	std::map<int, int> _bingoTable;

@@ -9,48 +9,42 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="소스 파일\Creature">
-      <UniqueIdentifier>{a0a09b2d-3b77-447f-9ff4-d2f582b6d38b}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="소스 파일\Game">
-      <UniqueIdentifier>{1018d53d-8eef-4b58-8ac8-642fb2793f7a}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="BingoGame%28exercise%29.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Computer.cpp">
-      <Filter>소스 파일\Creature</Filter>
-    </ClCompile>
     <ClCompile Include="Player.cpp">
-      <Filter>소스 파일\Creature</Filter>
+      <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Game.cpp">
-      <Filter>소스 파일\Game</Filter>
+    <ClCompile Include="Computer.cpp">
+      <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="Creature.cpp">
-      <Filter>소스 파일\Creature</Filter>
+      <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="Field.cpp">
-      <Filter>소스 파일\Game</Filter>
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Computer.h">
-      <Filter>소스 파일\Creature</Filter>
-    </ClInclude>
     <ClInclude Include="Player.h">
-      <Filter>소스 파일\Creature</Filter>
+      <Filter>소스 파일</Filter>
     </ClInclude>
-    <ClInclude Include="Game.h">
-      <Filter>소스 파일\Game</Filter>
+    <ClInclude Include="Computer.h">
+      <Filter>소스 파일</Filter>
     </ClInclude>
     <ClInclude Include="Creature.h">
-      <Filter>소스 파일\Creature</Filter>
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>소스 파일</Filter>
     </ClInclude>
     <ClInclude Include="Field.h">
-      <Filter>소스 파일\Game</Filter>
+      <Filter>소스 파일</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
