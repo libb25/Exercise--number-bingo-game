@@ -1,4 +1,4 @@
-# Exercise--number-bingo-game-1-50: 콘솔
+# Exercise--number-bingo-game-1-50 <콘솔>
 
 유저와 컴퓨터가 하는 5\*5 숫자 빙고 게임입니다.
 <br>
